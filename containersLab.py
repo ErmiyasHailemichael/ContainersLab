@@ -22,10 +22,11 @@
 
 # Exercise 3
 # Using a forloop, print just the last two food strings from foods.
-foods = ('pizza', 'pasta', 'salad', 'chicken', 'steak', 'burger','sandwich')
 
-for food in foods[-2:]:
-    print(food)
+# foods = ('pizza', 'pasta', 'salad', 'chicken', 'steak', 'burger','sandwich')
+
+# for food in foods[-2:]:
+#     print(food)
 
 
 
@@ -34,9 +35,13 @@ for food in foods[-2:]:
 # Print a string with this format:
 # "I was born in city, state - population of population"
 
+# home_town = { 
+#     'city': 'CMC',
+#     'state': 'Addis Ababa',
+#     'population': 4000000,
+# }
 
-
-
+# print(f'I was born in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}')
 
 
 # Exercise 5
@@ -45,7 +50,14 @@ for food in foods[-2:]:
 # 	"state = California"
 # 	"population = 58000"
 
+# home_town = {
+#     'city': 'Arcadia',
+#     'state': 'California',
+#     'population': 58000,
+# }
 
+# for key, value in home_town.items():
+#     print(f'{key} = {value}')
 
 
 
